@@ -7,7 +7,7 @@ const RecipeList = ({ recipes, title }) => {
       {recipes.map((recipe) => (
         <div className="recipe-preview" key={recipe.id}>
           <Link to={`/recipes/${recipe.id}`}>
-            <h2>{recipe.title}</h2>
+            <h2>{recipe.dish}</h2>
           </Link>
         </div>
       ))}

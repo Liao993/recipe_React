@@ -22,9 +22,16 @@ const RecipeDetails = () => {
       {error && <div>{error}</div>}
       {data && (
         <article>
-          <h2> {data.title}</h2>
-          <p>Written by {data.author}</p>
-          <div>{data.body}</div>
+          <h2>
+            {" "}
+            {data.category} - {data.dish}
+          </h2>
+          <h3>{data.country}</h3>
+          <p>Ingredient {data.ingredient}</p>
+          <div>
+            <h1>How to Cook</h1>
+            {data.process}
+          </div>
           <button onClick={hanldeClick}>delete</button>
         </article>
       )}

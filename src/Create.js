@@ -2,16 +2,18 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const Create = () => {
-  const [title, setTitle] = useState("");
-  const [body, setBody] = useState("");
-  const [author, setAuthor] = useState("mario");
+  const [dish, setDish] = useState("");
+  const [ingredient, setIngredient] = useState("");
+  const [process, setProcess] = useState("");
+  const [country, setCountry] = useState("");
+  const [category, setCategory] = useState("main");
   const [isPending, setIsPending] = useState(false);
   const navigate = useNavigate();
 
   // catch submitted data
   const handleSubmit = (e) => {
     e.preventDefault();
-    const recipe = { title, body, author };
+    const recipe = { dish, ingredient, process, country, category };
     console.log(recipe);
 
     setIsPending(true);
@@ -43,26 +45,42 @@ const Create = () => {
     <div className="create">
       <h2>Add a new recipe</h2>
       <form onSubmit={handleSubmit}>
-        <label>Blog title:</label>
+        <label>Food Name</label>
         <input
           type="text"
           required
-          value={title}
-          onChange={(e) => setTitle(e.target.value)}
+          value={dish}
+          onChange={(e) => setDish(e.target.value)}
         />
-        <label>Blog body:</label>
+        <label>Ingredient</label>
         <textarea
           required
-          value={body}
-          onChange={(e) => setBody(e.target.value)}
+          value={ingredient}
+          onChange={(e) => setIngredient(e.target.value)}
         ></textarea>
-        <label>Blog author:</label>
-        <select value={author} onChange={(e) => setAuthor(e.target.value)}>
-          <option value="mario">mario</option>
-          <option value="yoshi">yoshi</option>
+        <label>Process</label>
+        <textarea
+          required
+          value={process}
+          onChange={(e) => setProcess(e.target.value)}
+        ></textarea>
+        <label>Country/Origin</label>
+        <input
+          type="text"
+          value={country}
+          onChange={(e) => setCountry(e.target.value)}
+        />
+        <label>category</label>
+        <select value={category} onChange={(e) => setCategory(e.target.value)}>
+          <option value="main">main-course</option>
+          <option value="side">side-dish</option>
+          <option value="soup">soup</option>
+          <option value="salad">salad</option>
+          <option value="dessert">dessert</option>
+          <option value="drink">drink</option>
         </select>
-        {!isPending && <button>Add Blog</button>}
-        {isPending && <button disabled>Adding Blog ...</button>}
+        {!isPending && <button>Add New Dish</button>}
+        {isPending && <button disabled>Adding new dish ...</button>}
       </form>
     </div>
   );
