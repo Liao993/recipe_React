@@ -34,10 +34,16 @@
   padding: 20px;
 }
 
+.recipe-list {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 /* blog previews / list */
 .recipe-preview {
   padding: 10px 16px;
-  margin: 20px 0;
+  margin: 20px;
   border-bottom: 1px solid #fafafa;
 }
 .recipe-preview:hover {
@@ -59,7 +65,7 @@
   margin-bottom: 10px;
 }
 .recipe-details div {
-  margin: 20px 0;
+  margin: auto;
 }
 .recipe-details button {
   background: #f1356d;
@@ -102,4 +108,12 @@
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
+}
+
+.search-bar input {
+  margin-bottom: 8px;
+  border: 1px solid grey;
+  font-size: 14pt;
+  text-align: center;
+  height: 40px;
 }
