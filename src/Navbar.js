@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+//Navigation Components - include Website Title & Navigation Bar
 const Navbar = () => {
   return (
     <nav className="navbar">

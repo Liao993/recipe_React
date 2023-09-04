@@ -3,12 +3,15 @@ import useFetch from "./useFetch";
 import { useNavigate } from "react-router-dom";
 
 const RecipeDetails = () => {
+  // catch id and the data
   const { id } = useParams();
   const { data, isPending, error } = useFetch(
     "http://localhost:8000/recipes/" + id
   );
+  // function for moving the other page
   const navigate = useNavigate();
 
+  // delete recipe function
   const hanldeClick = () => {
     fetch("http://localhost:8000/recipes/" + id, { method: "DELETE" }).then(
       () => {
@@ -16,6 +19,7 @@ const RecipeDetails = () => {
       }
     );
   };
+
   return (
     <div className="recipe-details">
       {isPending && <div>Loading ...</div>}

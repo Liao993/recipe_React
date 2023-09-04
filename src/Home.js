@@ -4,7 +4,10 @@ import SearchBar from "./SearchBar";
 import { useState } from "react";
 
 const Home = () => {
+  // get data from backend json-server
   const { data, isPending, error } = useFetch("http://localhost:8000/recipes");
+
+  // search bar
   const [query, setQuery] = useState("");
 
   return (

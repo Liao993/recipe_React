@@ -10,15 +10,18 @@ const Create = () => {
   const [isPending, setIsPending] = useState(false);
   const navigate = useNavigate();
 
-  // catch submitted data
+  // function to catch submitted data
   const handleSubmit = (e) => {
+    // remove brower refresh (default behavior)
     e.preventDefault();
+
+    // a new recipe content
     const recipe = { dish, ingredient, process, country, category };
     console.log(recipe);
 
     setIsPending(true);
 
-    // send data to json.server
+    // send created data to json.server
     fetch("http://localhost:8000/recipes", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -40,6 +43,7 @@ const Create = () => {
         setIsPending(false);
       });
   };
+
   // input form
   return (
     <div className="create">

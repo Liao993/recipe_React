@@ -6,7 +6,9 @@ const RecipeList = ({ recipes, query, title }) => {
       <h2>{title}</h2>
       {recipes
 
+        // eslint-disable-next-line array-callback-return
         .filter((post) => {
+          // if search is empty, then return all recipes, else return filtered data
           if (query === "") {
             return post;
           } else if (
@@ -21,6 +23,7 @@ const RecipeList = ({ recipes, query, title }) => {
         })
 
         .map((recipe) => (
+          // map is function like loop, to get all infromation of filtered data, and have link for each recipe
           <div className="recipe-preview" key={recipe.id}>
             <Link to={`/recipes/${recipe.id}`}>
               <h2>{recipe.dish}</h2>

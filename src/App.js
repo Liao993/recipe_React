@@ -6,6 +6,7 @@ import Create from "./Create";
 import NotFound from "./NotFound";
 import RecipeDetails from "./RecipeDetails";
 
+// All Pages for the routes (RecipeList & SearchBar are the components for Home Page. They are not Routes)
 function App() {
   return (
     <Router>

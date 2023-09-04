@@ -5,6 +5,7 @@ const useFetch = (url) => {
   const [isPending, setIsPending] = useState(true);
   const [error, setError] = useState(null);
 
+  // function to fetch data
   useEffect(() => {
     fetch(url)
       .then((res) => {
