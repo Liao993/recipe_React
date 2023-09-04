@@ -12,16 +12,18 @@
   align-items: center;
   max-width: 600px;
   margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
+  border-bottom: 1px solid hsla(0, 90%, 51%, 0.039);
 }
 .navbar h1 {
+  font-size: 30px;
   color: #f1356d;
 }
 .navbar .links {
+  /* put the div to up-right corner */
   margin-left: auto;
 }
 .navbar a {
-  margin-left: 16px;
+  margin-left: 10px;
   text-decoration: none;
   padding: 6px;
 }
@@ -35,15 +37,14 @@
 }
 
 .recipe-list {
-  max-width: 400px;
-  margin: 0 auto;
-  text-align: center;
+  margin: 10px auto;
+  text-align: left;
 }
 
 /* blog previews / list */
 .recipe-preview {
-  padding: 10px 16px;
-  margin: 20px;
+  padding-top: 16px;
+  margin-top: 20px;
   border-bottom: 1px solid #fafafa;
 }
 .recipe-preview:hover {
@@ -60,13 +61,29 @@
 
 /* blog details page */
 .recipe-details h2 {
-  font-size: 20px;
-  color: #f1356d;
+  font-size: 25px;
+  color: #db1d17;
+  margin-bottom: 10px;
+}
+.recipe-details h3 {
+  font-size: 25px;
+  color: #0c0a0a;
+  margin-top: 40px;
   margin-bottom: 10px;
 }
 .recipe-details div {
   margin: auto;
 }
+
+.recipe-details ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.recipe-details ul > li {
+  margin-bottom: 20px;
+}
+
 .recipe-details button {
   background: #f1356d;
   color: #fff;
@@ -85,6 +102,7 @@
 .create label {
   text-align: left;
   display: block;
+  font-style: italic;
 }
 .create h2 {
   font-size: 20px;
@@ -99,21 +117,31 @@
   margin: 10px 0;
   border: 1px solid #ddd;
   box-sizing: border-box;
+  border-radius: 8px;
   display: block;
 }
+
+.create textarea {
+  padding: 64px 5px;
+}
+
 .create button {
   background: #f1356d;
   color: #fff;
   border: 0;
-  padding: 8px;
+  margin-top: 10px;
+  padding: 10px;
   border-radius: 8px;
   cursor: pointer;
 }
 
 .search-bar input {
   margin-bottom: 8px;
-  border: 1px solid grey;
+  border: 2px solid grey;
   font-size: 14pt;
+  font-weight: bold;
   text-align: center;
   height: 40px;
+  width: 150pt;
+  border-radius: 6px;
 }

@@ -10,13 +10,30 @@ const Create = () => {
   const [isPending, setIsPending] = useState(false);
   const navigate = useNavigate();
 
+  // Function to capitalize the first letter of each word
+  const capitalizeWords = (input) => {
+    return input
+      .split(" ")
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(" ");
+  };
+
   // function to catch submitted data
   const handleSubmit = (e) => {
     // remove brower refresh (default behavior)
     e.preventDefault();
 
+    // Capitalize the words in the 'dish' input
+    const capitalizedDish = capitalizeWords(dish);
+
     // a new recipe content
-    const recipe = { dish, ingredient, process, country, category };
+    const recipe = {
+      dish: capitalizedDish,
+      ingredient,
+      process,
+      country,
+      category,
+    };
     console.log(recipe);
 
     setIsPending(true);
@@ -74,10 +91,10 @@ const Create = () => {
           value={country}
           onChange={(e) => setCountry(e.target.value)}
         />
-        <label>category</label>
+        <label>Category</label>
         <select value={category} onChange={(e) => setCategory(e.target.value)}>
           <option value="main">main-course</option>
-          <option value="side">side-dish</option>
+          <option value="side-dish">side-dish</option>
           <option value="soup">soup</option>
           <option value="salad">salad</option>
           <option value="dessert">dessert</option>

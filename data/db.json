@@ -89,12 +89,36 @@
       "id": 11
     },
     {
-      "dish": "dfvlpk",
-      "ingredient": "vcvvx",
-      "process": "vcxvcvcx",
-      "country": "",
+      "dish": "Cod with Honey Allioli & Spinach",
+      "ingredient": "1 large onion, diced\n600 g fresh spinach, washed\n2-3 cloves garlic, minced\n100 g raisins\n50 g pine nuts\nsalt and pepper\nolive oil\nFor the allioli:\n1 egg, at room temperature\n1 clove garlic, minced\n½ tsp lemon juice\npinch of salt\n250 ml mild, fruity olive oil\n1-2 Tbsp honey\nFor the cod:\n4 cod fillets (desalinated)\nflour\noil and salt",
+      "process": "For the Spinach a la Catalana (can be made ahead):\nPlace raisins in a bowl of warm water to soak and set aside.\nPlace the pine nuts in a pan on medium-low heat and toast, then set aside.\nSaute the onions in olive oil on medium heat until translucent, about 10 minutes. Be sure to use a very large pan, as the spinach will need a lot of room.\nAdd the garlic to the pan and saute for 1-2 minutes.\nAdd several handfuls of spinach to the pan, leaving room to stir it. As the spinach reduces in volume, add more spinach until it has all been added. Continue to cook over medium heat, allowing some of the water from the spinach to evaporate.\nDiscard the water from the raisins and add them to the spinach. Season to taste with salt—my suggestion is to go light on the salt as the cod is already salted. Stir in toasted pine nuts and set aside.\nFor the Allioli (can be made ahead):\nTraditionally made in a mortar and pestle, you can also whisk it by hand—but be ready for some vigorous whisking. If you're like me and have a miniprimer (immersion blender) you'll have it made in minutes. Put the egg, minced garlic, pinch of salt, lemon juice and about half the olive oil in the miniprimer cup and allow the ingredients to settle for about a minute.\nPlace the head of the miniprimer in the bottom of the cup and switch it on medium speed. Do not move the mixer up and down, you need to allow it to gradually blend the ingredients. As the ingredients begin to emulsify, slowly tilt the the head of the miniprimer until all the oil is emulsified.\nWith the mixer on low to medium-low, slowly drizzle in the rest of the olive oil. Once emulsified, gently whisk in the honey to your taste. Set allioli aside.\nFinal Steps:\nPreheat the oven to 180°C (350°F).\nDrain the cod fillets and coat them with flour. Heat a little oil in a frying pan and fry the cod for two minutes on each side. Set cod aside and soak up any excess oil with kitchen paper.  \nLine the bottom of a baking dish with the cooked spinach. Place the cod fillets on top of the spinach and coat each fillet generously with the honey allioli.\nBake 10-15 minutes in the center of the oven, keeping an eye on the allioli so that it does not burn.\nServe and enjoy!",
+      "country": "Spain",
       "category": "main",
-      "id": 12
+      "id": 13
+    },
+    {
+      "dish": "FETTUCCINE ALFREDO",
+      "ingredient": "fettuccine noodles,salt\n,butter\n,garlic - we recommend fresh garlic for the strongest flavor. You can substitute with garlic powder if you don’t have fresh garlic on hand.\n,heavy cream\n,Parmesan cheese\n,ground black pepper",
+      "process": ">Cook the pasta. Bring a large pot of water to a boil over medium-high heat. \n>Add fettuccine noodles and salt and cook until al dente (fully cooked but still firm) according to package directions, about 2-3 minutes for fresh fettuccine noodles and 8-10 minutes for dried noodles. \n>Reserve ½ cup pasta water and then drain and set aside.\nSauté aromatics. In a large skillet, melt butter over medium high heat for 1 minute. \n>Add garlic and sauté until fragrant, about 1 minute.\nMake the alfredo sauce. \n>Add heavy cream and Parmesan cheese. Stir well and bring the sauce to a simmer. \n>Reduce heat to medium and keep stirring until thickened to a desired consistency, about 3-4 minutes.\n>Toss in fettuccine noodles. \n>Stir in cooked fettuccine and toss well to combine. If you like it a bit saucier, slowly add ¼ cup to ½ cup reserved pasta water and stir well to combine.\n>Serve. Sprinkle extra Parmesan and freshly ground black pepper on top.",
+      "country": "Italy",
+      "category": "main",
+      "id": 14
+    },
+    {
+      "dish": "EASY ROSEMARY GARLIC FOCACCIA BREAD",
+      "ingredient": "extra virgin olive oil - this is what gives the bread it’s crispy outer texture and incredible flavour.,\ngarlic - lots of fresh garlic please! — I used 4 cloves.\nrosemary - fresh rosemary is best to obtain the most flavour.,\nflour - I used all-purpose flour.,\nyeast and water - active dry yeast and warm water to help the dough rise.,\nsugar - a small amount of sugar helps speed up the yeast fermentation.,\nsalt - for flavour.,",
+      "process": "Prepare the rosemary garlic oil. Cook olive oil, garlic and rosemary in a small saucepan to infuse the flavours together./\nPrepare dough. Dissolve yeast and sugar in lukewarm water and mix together. Add flour and salt, and whisk to combine. Cover bowl with plastic wrap and let the dough sit at room temperature 2 hours, until doubled in size./\nAdd rosemary garlic oil. Spread some rosemary garlic oil into a 8x8-inch baking pan. Transfer dough into the tray and spread it. Press the dough with your fingers to make dimples. Drizzle the remaining rosemary garlic oil on top. Let the dough rise for another 30 minutes./\nBake bread: Preheat oven to 425°F and bake for 30 minutes, until golden brown. Let cool for 20 minutes before slicing.",
+      "country": "Italy",
+      "category": "side",
+      "id": 15
+    },
+    {
+      "dish": "Fffffc Rffff",
+      "ingredient": "sdcdsv, hhh, hhh,nn",
+      "process": "b/h/j/t",
+      "country": "Taiwan",
+      "category": "drink",
+      "id": 16
     }
   ]
 }
