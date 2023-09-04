@@ -12,7 +12,8 @@ const Create = () => {
 
   // Function to capitalize the first letter of each word
   const capitalizeWords = (input) => {
-    return input
+    const lowerInput = input.toLowerCase();
+    return lowerInput
       .split(" ")
       .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
       .join(" ");
@@ -73,13 +74,15 @@ const Create = () => {
           value={dish}
           onChange={(e) => setDish(e.target.value)}
         />
-        <label>Ingredient</label>
+        <label>
+          Ingredient (Please Split each ingredient with " , (comma) " )
+        </label>
         <textarea
           required
           value={ingredient}
           onChange={(e) => setIngredient(e.target.value)}
         ></textarea>
-        <label>Process</label>
+        <label>Process (Please split each step with " / ")</label>
         <textarea
           required
           value={process}

@@ -1,124 +1,52 @@
 {
   "recipes": [
     {
-      "dish": "Spaghetti Bolognese",
-      "ingredient": "500g ground beef, 1 onion, 2 cloves of garlic, 400g canned tomatoes, 2 tbsp tomato paste, 1 tsp dried oregano, salt and pepper to taste, 300g spaghetti",
-      "process": "1. Heat oil in a pan. Add chopped onions and minced garlic.\n2. Add ground beef and cook until browned.\n3. Add tomatoes, tomato paste, oregano, salt, and pepper. Simmer for 20 minutes.\n4. Cook spaghetti according to package instructions.\n5. Serve the Bolognese sauce over cooked spaghetti.",
+      "dish": "Spaghetti Carbonara",
+      "ingredient": "200g spaghetti, 100g pancetta, 2 large eggs, 50g Pecorino cheese, 50g Parmesan cheese, black pepper",
+      "process": "1. Boil the spaghetti until al dente / 2. Cook pancetta until crispy / 3. Beat eggs, add cheese and pepper / 4. Mix pasta, pancetta, and egg mixture.",
       "country": "Italy",
-      "category": "Main Dish",
+      "category": "main-course",
       "id": 1
     },
     {
-      "dish": "Chocolate Brownies",
-      "ingredient": "1 cup butter, 2 cups sugar, 4 large eggs, 1 tsp vanilla extract, 1 cup all-purpose flour, 1/2 cup cocoa powder, 1/4 tsp salt, 1 cup chocolate chips",
-      "process": "1. Preheat the oven to 350°F (175°C) and grease a baking pan.\n2. Melt the butter and mix in sugar, eggs, and vanilla extract.\n3. In a separate bowl, whisk flour, cocoa powder, and salt.\n4. Combine wet and dry ingredients, then fold in chocolate chips.\n5. Pour the batter into the baking pan and spread evenly.\n6. Bake for about 25-30 minutes.\n7. Let the brownies cool before cutting into squares.",
-      "country": "Unknown",
-      "category": "Dessert",
+      "dish": "Caesar Salad",
+      "ingredient": "Romaine lettuce, croutons, Parmesan cheese, Caesar dressing",
+      "process": "1. Toss lettuce with dressing / 2. Add croutons and cheese / 3. Mix well.",
+      "country": "United States",
+      "category": "salad",
       "id": 2
     },
     {
-      "dish": "Chicken Tikka Masala",
-      "ingredient": "500g chicken breast, 1 cup plain yogurt, 2 tbsp tikka masala spice mix, 1 tsp ginger paste, 1 tsp garlic paste, 1 cup tomato sauce, 1 cup heavy cream, salt to taste, fresh cilantro leaves for garnish",
-      "process": "1. Cut chicken into bite-sized pieces and marinate in yogurt, half of the tikka masala spice mix, ginger paste, and garlic paste for a few hours.\n2. Preheat a grill or oven. Cook marinated chicken until fully cooked.\n3. In a pan, heat the remaining tikka masala spice mix.\n4. Add tomato sauce and simmer for a few minutes.\n5. Pour in heavy cream and cooked chicken. Simmer for another 10 minutes.\n6. Garnish with cilantro leaves and serve with rice or naan.",
-      "country": "India",
-      "category": "Main Dish",
+      "dish": "Margarita Pizza",
+      "ingredient": "Pizza dough, tomato sauce, fresh mozzarella cheese, basil leaves, olive oil",
+      "process": "1. Roll out pizza dough / 2. Spread tomato sauce / 3. Add cheese and basil / 4. Bake until golden.",
+      "country": "Italy",
+      "category": "main-course",
       "id": 3
     },
     {
-      "dish": "Margherita Pizza",
-      "ingredient": "1 pizza dough, 1/2 cup tomato sauce, 1 1/2 cups mozzarella cheese, fresh basil leaves, olive oil, salt and pepper to taste",
-      "process": "1. Preheat the oven to the highest temperature.\n2. Roll out the pizza dough and place it on a baking sheet.\n3. Spread tomato sauce over the dough, leaving a border.\n4. Sprinkle mozzarella cheese over the sauce.\n5. Drizzle olive oil and season with salt and pepper.\n6. Bake in the oven until the crust is golden and the cheese is bubbly.\n7. Top with fresh basil leaves before serving.",
-      "country": "Italy",
-      "category": "Main Dish",
+      "dish": "Mojito",
+      "ingredient": "White rum, fresh lime juice, mint leaves, sugar, soda water, ice",
+      "process": "1. Muddle mint and sugar / 2. Add lime juice and rum / 3. Top with soda and ice / 4. Stir and garnish with mint.",
+      "country": "Cuba",
+      "category": "drink",
       "id": 4
     },
     {
-      "dish": "Vanilla Crème Brûlée",
-      "ingredient": "2 cups heavy cream, 1 vanilla bean, 5 egg yolks, 1/2 cup granulated sugar, brown sugar for caramelizing",
-      "process": "1. Preheat the oven to 325°F (160°C).\n2. Split the vanilla bean and scrape the seeds into the cream. Heat the cream until hot but not boiling.\n3. In a bowl, whisk egg yolks and granulated sugar until smooth.\n4. Slowly pour the hot cream into the egg mixture, whisking constantly.\n5. Strain the mixture and pour into ramekins.\n6. Place the ramekins in a baking dish. Add hot water to the dish to create a water bath.\n7. Bake for about 40-45 minutes until the custard is set but slightly jiggly.\n8. Refrigerate for a few hours.\n9. Sprinkle a thin layer of brown sugar on top and caramelize with a kitchen torch.",
-      "country": "France",
-      "category": "Dessert",
+      "dish": "Scrambled Eggs With Shrimp",
+      "ingredient": "4 ounces shrimp, peeled and deveined,\n4 large eggs,\n1/4 cup chicken broth, or stock,\n1/8 teaspoon salt, or to taste,\nFreshly ground black pepper, to taste,\n1/2 teaspoon Chinese rice wine, or dry sherry,\n1 teaspoon oyster sauce,\n1 green onion, thinly sliced on the diagonal,\n2 tablespoons oil, divided",
+      "process": "Gather the ingredients./Thoroughly wash the shrimp and pat dry with paper towels. Reserve. / Thoroughly wash the shrimp and pat dry with paper towels. Reserve. / Add into the eggs the chicken broth, salt, pepper, rice wine, oyster sauce, and green onion. Quickly stir until all is well incorporated. Preheat a wok or heavy-bottomed skillet on medium-high heat. / Add 1 tablespoon of oil into the preheated wok. When the oil is very hot, add the shrimp. / Briefly stir-fry the shrimp until they turn pink. Remove and drain excess oil on paper towels. Reserve. / Add the remaining tablespoon of oil into the wok and turn the heat on high. When the oil is very hot, add the egg mixture. / Scramble gently for about 1 minute, then add the shrimp. / Continue scrambling until the eggs are almost cooked but still moist. Remove from the heat and let sit for a minute before serving. Taste test; depending on the amount of salt in the chicken broth, the scramble might need an extra pinch of salt before serving. Enjoy!",
+      "country": "Taiwan",
+      "category": "main",
       "id": 5
     },
     {
-      "dish": "Tacos Al Pastor",
-      "ingredient": "1 lb pork shoulder, 3/4 cup pineapple juice, 3 tbsp achiote paste, 3 cloves of garlic, 1 tsp cumin, 1 tsp oregano, salt and pepper to taste, corn tortillas, diced onions, chopped cilantro, sliced pineapple",
-      "process": "1. Blend pineapple juice, achiote paste, garlic, cumin, oregano, salt, and pepper to make the marinade.\n2. Marinate sliced pork in the mixture for several hours or overnight.\n3. Grill or pan-fry the marinated pork until cooked and slightly charred.\n4. Warm corn tortillas.\n5. Serve the pork in tortillas, topped with diced onions, chopped cilantro, and sliced pineapple.",
-      "country": "Mexico",
-      "category": "Main Dish",
+      "dish": "Ffggg Frsdsscrggg",
+      "ingredient": "fffccv, hhhghh ,  ",
+      "process": "gdssgbvsxcfv",
+      "country": "ddddd",
+      "category": "main",
       "id": 6
-    },
-    {
-      "dish": "Lemon Bars",
-      "ingredient": "1 cup butter, 2 cups all-purpose flour, 1/2 cup powdered sugar, 4 large eggs, 2 cups granulated sugar, 1/3 cup lemon juice, 2 tsp lemon zest, 1/2 tsp baking powder, powdered sugar for dusting",
-      "process": "1. Preheat the oven to 350°F (175°C) and grease a baking pan.\n2. In a bowl, mix butter, flour, and powdered sugar until crumbly.\n3. Press the mixture into the baking pan and bake for 20 minutes.\n4. In another bowl, whisk eggs, granulated sugar, lemon juice, lemon zest, and baking powder.\n5. Pour the mixture over the baked crust and bake for an additional 25 minutes.\n6. Let the bars cool completely, then dust with powdered sugar before cutting.",
-      "country": "Unknown",
-      "category": "Dessert",
-      "id": 7
-    },
-    {
-      "dish": "Beef Stew",
-      "ingredient": "1 lb beef stew meat, 2 carrots, 2 potatoes, 1 onion, 2 cloves of garlic, 2 cups beef broth, 1 cup red wine, 1 tbsp tomato paste, 1 tsp thyme, 1 tsp rosemary, salt and pepper to taste",
-      "process": "1. Heat oil in a pot. Brown the beef stew meat on all sides.\n2. Add chopped onions and minced garlic. Sauté until onions are translucent.\n3. Stir in tomato paste and cook for a minute.\n4. Pour in red wine and simmer until reduced.\n5. Add beef broth, thyme, rosemary, salt, and pepper.\n6. Cover and simmer for about 1.5 to 2 hours until the meat is tender.\n7. Add diced carrots and potatoes. Continue to simmer until vegetables are cooked.\n8. Adjust seasoning and serve.",
-      "country": "Various",
-      "category": "Main Dish",
-      "id": 8
-    },
-    {
-      "dish": "Apple Pie",
-      "ingredient": "6 cups sliced apples, 3/4 cup granulated sugar, 1 tsp cinnamon, 1/4 tsp nutmeg, 2 tbsp butter, 2 pie crusts (homemade or store-bought), 1 egg (for egg wash)",
-      "process": "1. Preheat the oven to 425°F (220°C).\n2. Mix sliced apples, sugar, cinnamon, and nutmeg in a bowl.\n3. Roll out one pie crust and fit it into a pie pan.\n4. Fill the crust with the apple mixture and dot with butter.\n5. Roll out the second crust and place it over the apples. Trim and crimp the edges.\n6. Cut slits in the top crust to allow steam to escape.\n7. Beat the egg and brush it over the top crust for a golden finish.\n8. Bake for 45-50 minutes until the crust is golden and the filling is bubbly.\n9. Let the pie cool before serving.",
-      "country": "Unknown",
-      "category": "Dessert",
-      "id": 9
-    },
-    {
-      "dish": "Sushi Rolls",
-      "ingredient": "Sushi rice, Nori (seaweed sheets), Fish (such as tuna, salmon), Vegetables (such as cucumber, avocado, carrots), Soy sauce, Wasabi, Pickled ginger",
-      "process": "1. Prepare sushi rice according to package instructions.\n2. Lay a bamboo sushi rolling mat on a clean surface and place a sheet of nori on it.\n3. Wet your hands and spread a layer of sushi rice evenly over the nori, leaving about an inch at the top.\n4. Arrange thin strips of fish and vegetables in the center of the rice.\n5. Roll the sushi using the mat, applying gentle pressure as you go.\n6. Wet the top edge of the nori with water and seal the roll.\n7. Use a sharp knife to slice the roll into bite-sized pieces.\n8. Serve with soy sauce, wasabi, and pickled ginger.",
-      "country": "Japan",
-      "category": "Main Dish",
-      "id": 10
-    },
-    {
-      "dish": "Cheesecake",
-      "ingredient": "2 cups graham cracker crumbs, 1/2 cup butter, 24 oz cream cheese, 1 cup granulated sugar, 1 tsp vanilla extract, 4 large eggs, 1 cup sour cream, fruit topping (such as strawberries or blueberries)",
-      "process": "1. Preheat the oven to 325°F (160°C).\n2. Mix graham cracker crumbs and melted butter. Press the mixture into the bottom of a springform pan to form the crust.\n3. In a large bowl, beat cream cheese until smooth.\n4. Gradually add sugar and vanilla extract, and continue beating.\n5. Add eggs one at a time, mixing well after each addition.\n6. Fold in sour cream.\n7. Pour the cream cheese mixture over the crust in the pan.\n8. Bake for about 50-60 minutes until the edges are set but the center still jiggles.\n9. Turn off the oven and let the cheesecake cool inside with the door ajar.\n10. Chill in the refrigerator for several hours or overnight.\n11. Top with fruit topping before serving.",
-      "country": "Unknown",
-      "category": "Dessert",
-      "id": 11
-    },
-    {
-      "dish": "Cod with Honey Allioli & Spinach",
-      "ingredient": "1 large onion, diced\n600 g fresh spinach, washed\n2-3 cloves garlic, minced\n100 g raisins\n50 g pine nuts\nsalt and pepper\nolive oil\nFor the allioli:\n1 egg, at room temperature\n1 clove garlic, minced\n½ tsp lemon juice\npinch of salt\n250 ml mild, fruity olive oil\n1-2 Tbsp honey\nFor the cod:\n4 cod fillets (desalinated)\nflour\noil and salt",
-      "process": "For the Spinach a la Catalana (can be made ahead):\nPlace raisins in a bowl of warm water to soak and set aside.\nPlace the pine nuts in a pan on medium-low heat and toast, then set aside.\nSaute the onions in olive oil on medium heat until translucent, about 10 minutes. Be sure to use a very large pan, as the spinach will need a lot of room.\nAdd the garlic to the pan and saute for 1-2 minutes.\nAdd several handfuls of spinach to the pan, leaving room to stir it. As the spinach reduces in volume, add more spinach until it has all been added. Continue to cook over medium heat, allowing some of the water from the spinach to evaporate.\nDiscard the water from the raisins and add them to the spinach. Season to taste with salt—my suggestion is to go light on the salt as the cod is already salted. Stir in toasted pine nuts and set aside.\nFor the Allioli (can be made ahead):\nTraditionally made in a mortar and pestle, you can also whisk it by hand—but be ready for some vigorous whisking. If you're like me and have a miniprimer (immersion blender) you'll have it made in minutes. Put the egg, minced garlic, pinch of salt, lemon juice and about half the olive oil in the miniprimer cup and allow the ingredients to settle for about a minute.\nPlace the head of the miniprimer in the bottom of the cup and switch it on medium speed. Do not move the mixer up and down, you need to allow it to gradually blend the ingredients. As the ingredients begin to emulsify, slowly tilt the the head of the miniprimer until all the oil is emulsified.\nWith the mixer on low to medium-low, slowly drizzle in the rest of the olive oil. Once emulsified, gently whisk in the honey to your taste. Set allioli aside.\nFinal Steps:\nPreheat the oven to 180°C (350°F).\nDrain the cod fillets and coat them with flour. Heat a little oil in a frying pan and fry the cod for two minutes on each side. Set cod aside and soak up any excess oil with kitchen paper.  \nLine the bottom of a baking dish with the cooked spinach. Place the cod fillets on top of the spinach and coat each fillet generously with the honey allioli.\nBake 10-15 minutes in the center of the oven, keeping an eye on the allioli so that it does not burn.\nServe and enjoy!",
-      "country": "Spain",
-      "category": "main",
-      "id": 13
-    },
-    {
-      "dish": "FETTUCCINE ALFREDO",
-      "ingredient": "fettuccine noodles,salt\n,butter\n,garlic - we recommend fresh garlic for the strongest flavor. You can substitute with garlic powder if you don’t have fresh garlic on hand.\n,heavy cream\n,Parmesan cheese\n,ground black pepper",
-      "process": ">Cook the pasta. Bring a large pot of water to a boil over medium-high heat. \n>Add fettuccine noodles and salt and cook until al dente (fully cooked but still firm) according to package directions, about 2-3 minutes for fresh fettuccine noodles and 8-10 minutes for dried noodles. \n>Reserve ½ cup pasta water and then drain and set aside.\nSauté aromatics. In a large skillet, melt butter over medium high heat for 1 minute. \n>Add garlic and sauté until fragrant, about 1 minute.\nMake the alfredo sauce. \n>Add heavy cream and Parmesan cheese. Stir well and bring the sauce to a simmer. \n>Reduce heat to medium and keep stirring until thickened to a desired consistency, about 3-4 minutes.\n>Toss in fettuccine noodles. \n>Stir in cooked fettuccine and toss well to combine. If you like it a bit saucier, slowly add ¼ cup to ½ cup reserved pasta water and stir well to combine.\n>Serve. Sprinkle extra Parmesan and freshly ground black pepper on top.",
-      "country": "Italy",
-      "category": "main",
-      "id": 14
-    },
-    {
-      "dish": "EASY ROSEMARY GARLIC FOCACCIA BREAD",
-      "ingredient": "extra virgin olive oil - this is what gives the bread it’s crispy outer texture and incredible flavour.,\ngarlic - lots of fresh garlic please! — I used 4 cloves.\nrosemary - fresh rosemary is best to obtain the most flavour.,\nflour - I used all-purpose flour.,\nyeast and water - active dry yeast and warm water to help the dough rise.,\nsugar - a small amount of sugar helps speed up the yeast fermentation.,\nsalt - for flavour.,",
-      "process": "Prepare the rosemary garlic oil. Cook olive oil, garlic and rosemary in a small saucepan to infuse the flavours together./\nPrepare dough. Dissolve yeast and sugar in lukewarm water and mix together. Add flour and salt, and whisk to combine. Cover bowl with plastic wrap and let the dough sit at room temperature 2 hours, until doubled in size./\nAdd rosemary garlic oil. Spread some rosemary garlic oil into a 8x8-inch baking pan. Transfer dough into the tray and spread it. Press the dough with your fingers to make dimples. Drizzle the remaining rosemary garlic oil on top. Let the dough rise for another 30 minutes./\nBake bread: Preheat oven to 425°F and bake for 30 minutes, until golden brown. Let cool for 20 minutes before slicing.",
-      "country": "Italy",
-      "category": "side",
-      "id": 15
-    },
-    {
-      "dish": "Fffffc Rffff",
-      "ingredient": "sdcdsv, hhh, hhh,nn",
-      "process": "b/h/j/t",
-      "country": "Taiwan",
-      "category": "drink",
-      "id": 16
     }
   ]
 }

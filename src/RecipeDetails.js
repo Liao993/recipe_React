@@ -22,6 +22,7 @@ const RecipeDetails = () => {
   const splitProcess = (process) => {
     return process.split("/").map((step, index) => (
       <li key={index}>
+        {" "}
         {index + 1} . {step.trim()}
       </li>
     ));
