@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -75,14 +76,17 @@ const Create = () => {
           onChange={(e) => setDish(e.target.value)}
         />
         <label>
-          Ingredient (Please Split each ingredient with " , (comma) " )
+          Ingredient (Please Split each ingredient with " ; (semicolon) " )
         </label>
         <textarea
           required
           value={ingredient}
           onChange={(e) => setIngredient(e.target.value)}
         ></textarea>
-        <label>Process (Please split each step with " / ")</label>
+        <label>
+          Process (Please put number order for each step and split them with " ;
+          (semicolon)") <br></br>like 1.cook / 2. eat / 3.clean
+        </label>
         <textarea
           required
           value={process}

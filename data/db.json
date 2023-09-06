@@ -1,52 +1,40 @@
 {
   "recipes": [
     {
+      "id": 1,
       "dish": "Spaghetti Carbonara",
-      "ingredient": "200g spaghetti, 100g pancetta, 2 large eggs, 50g Pecorino cheese, 50g Parmesan cheese, black pepper",
-      "process": "1. Boil the spaghetti until al dente / 2. Cook pancetta until crispy / 3. Beat eggs, add cheese and pepper / 4. Mix pasta, pancetta, and egg mixture.",
+      "ingredient": "200g spaghetti;100g pancetta;2 large eggs;50g Pecorino cheese;50g Parmesan cheese;black pepper",
+      "process": "1. Boil the spaghetti until al dente;2. Cook pancetta until crispy;3. Beat eggs, add cheese and pepper;4. Mix pasta, pancetta, and egg mixture.",
       "country": "Italy",
       "category": "main-course",
-      "id": 1
+      "image": "location.jpg"
     },
     {
+      "id": 2,
       "dish": "Caesar Salad",
-      "ingredient": "Romaine lettuce, croutons, Parmesan cheese, Caesar dressing",
-      "process": "1. Toss lettuce with dressing / 2. Add croutons and cheese / 3. Mix well.",
-      "country": "United States",
+      "ingredient": "Romaine lettuce;croutons;Parmesan cheese;Caesar dressing",
+      "process": "1. Toss lettuce with dressing;2. Add croutons and cheese;3. Mix well.",
+      "country": "Mexico",
       "category": "salad",
-      "id": 2
+      "image": "location.jpg"
     },
     {
+      "id": 3,
       "dish": "Margarita Pizza",
-      "ingredient": "Pizza dough, tomato sauce, fresh mozzarella cheese, basil leaves, olive oil",
-      "process": "1. Roll out pizza dough / 2. Spread tomato sauce / 3. Add cheese and basil / 4. Bake until golden.",
+      "ingredient": "Pizza dough;tomato sauce;fresh mozzarella cheese;basil leaves;olive oil",
+      "process": "1. Roll out pizza dough;2. Spread tomato sauce;3. Add cheese and basil;4. Bake until golden.",
       "country": "Italy",
       "category": "main-course",
-      "id": 3
+      "image": "apartment.jpg"
     },
     {
+      "id": 4,
       "dish": "Mojito",
-      "ingredient": "White rum, fresh lime juice, mint leaves, sugar, soda water, ice",
-      "process": "1. Muddle mint and sugar / 2. Add lime juice and rum / 3. Top with soda and ice / 4. Stir and garnish with mint.",
+      "ingredient": "White rum;fresh lime juice;mint leaves;sugar;soda water;ice",
+      "process": "1. Muddle mint and sugar;2. Add lime juice and rum;3. Top with soda and ice;4. Stir and garnish with mint.",
       "country": "Cuba",
       "category": "drink",
-      "id": 4
-    },
-    {
-      "dish": "Scrambled Eggs With Shrimp",
-      "ingredient": "4 ounces shrimp, peeled and deveined,\n4 large eggs,\n1/4 cup chicken broth, or stock,\n1/8 teaspoon salt, or to taste,\nFreshly ground black pepper, to taste,\n1/2 teaspoon Chinese rice wine, or dry sherry,\n1 teaspoon oyster sauce,\n1 green onion, thinly sliced on the diagonal,\n2 tablespoons oil, divided",
-      "process": "Gather the ingredients./Thoroughly wash the shrimp and pat dry with paper towels. Reserve. / Thoroughly wash the shrimp and pat dry with paper towels. Reserve. / Add into the eggs the chicken broth, salt, pepper, rice wine, oyster sauce, and green onion. Quickly stir until all is well incorporated. Preheat a wok or heavy-bottomed skillet on medium-high heat. / Add 1 tablespoon of oil into the preheated wok. When the oil is very hot, add the shrimp. / Briefly stir-fry the shrimp until they turn pink. Remove and drain excess oil on paper towels. Reserve. / Add the remaining tablespoon of oil into the wok and turn the heat on high. When the oil is very hot, add the egg mixture. / Scramble gently for about 1 minute, then add the shrimp. / Continue scrambling until the eggs are almost cooked but still moist. Remove from the heat and let sit for a minute before serving. Taste test; depending on the amount of salt in the chicken broth, the scramble might need an extra pinch of salt before serving. Enjoy!",
-      "country": "Taiwan",
-      "category": "main",
-      "id": 5
-    },
-    {
-      "dish": "Ffggg Frsdsscrggg",
-      "ingredient": "fffccv, hhhghh ,  ",
-      "process": "gdssgbvsxcfv",
-      "country": "ddddd",
-      "category": "main",
-      "id": 6
+      "image": "hang.jpg"
     }
   ]
 }
