@@ -7,34 +7,34 @@
       "process": "1. Boil the spaghetti until al dente;2. Cook pancetta until crispy;3. Beat eggs, add cheese and pepper;4. Mix pasta, pancetta, and egg mixture.",
       "country": "Italy",
       "category": "main-course",
-      "image": "location.jpg"
+      "image": "spaghetticarbonara.jpg"
     },
     {
-      "id": 2,
-      "dish": "Caesar Salad",
-      "ingredient": "Romaine lettuce;croutons;Parmesan cheese;Caesar dressing",
-      "process": "1. Toss lettuce with dressing;2. Add croutons and cheese;3. Mix well.",
-      "country": "Mexico",
-      "category": "salad",
-      "image": "location.jpg"
+      "dish": "Miso Tofu ",
+      "ingredient": "1box Tofu ;\n3 cloves Garlic;\n1 Chili (optional) ;\n2 Scallion (green onions) ;\n1/2 onion;\n1 tbsp miso\n\n",
+      "process": "1. Cut tofu, scallion(green onions), garlic, and chili before cooking. ;\n2. Add some oil into a pan, then pan fry the tofu until golden brown;\n3. add onion and stir fry for around 1 mins;\n4.  add miso, cover the pot and cook it until onion soft;\n5. sprinkle the green onions",
+      "country": "Taiwan",
+      "category": "main",
+      "image": "misotofu.jpg",
+      "id": 2
     },
     {
-      "id": 3,
-      "dish": "Margarita Pizza",
-      "ingredient": "Pizza dough;tomato sauce;fresh mozzarella cheese;basil leaves;olive oil",
-      "process": "1. Roll out pizza dough;2. Spread tomato sauce;3. Add cheese and basil;4. Bake until golden.",
+      "dish": "Honey Cod ",
+      "ingredient": "1 egg, at room temperature;\n1 clove garlic, minced;\n½ tsp lemon juice;\npinch of salt;\n250 ml mild, fruity olive oil;\n1-2 Tbsp honey;\n4 cod fillets (desalinated);\nflour;\noil and salt",
+      "process": "1.Traditionally made in a mortar and pestle, you can also whisk it by hand—but be ready for some vigorous whisking. If you're like me and have a miniprimer (immersion blender) you'll have it made in minutes. Put the egg, minced garlic, pinch of salt, lemon juice and about half the olive oil in the miniprimer cup and allow the ingredients to settle for about a minute.;\n2.Place the head of the miniprimer in the bottom of the cup and switch it on medium speed. Do not move the mixer up and down, you need to allow it to gradually blend the ingredients. As the ingredients begin to emulsify, slowly tilt the the head of the miniprimer until all the oil is emulsified.;\n3.With the mixer on low to medium-low, slowly drizzle in the rest of the olive oil. Once emulsified, gently whisk in the honey to your taste. Set allioli aside.;\n4.Preheat the oven to 180°C (350°F).;\n5.Drain the cod fillets and coat them with flour. Heat a little oil in a frying pan and fry the cod for two minutes on each side. Set cod aside and soak up any excess oil with kitchen paper.  ;\n6. Place the cod fillets and coat each fillet generously with the honey allioli.;\n7.Bake 10-15 minutes in the center of the oven, keeping an eye on the allioli so that it does not burn.;\n8.Serve and enjoy!",
+      "country": "Bercelona, Spain",
+      "category": "main",
+      "image": "honeycod.jpg",
+      "id": 3
+    },
+    {
+      "dish": "Summer Zucchini Pasta",
+      "ingredient": "1 package (16 ounces) pappardelle or tagliatelle pasta;\n1/4 cup olive oil;\n2 small zucchini, cut into thin ribbons;\n2 small yellow summer squash, cut into thin ribbons;\n4 garlic cloves, thinly sliced;\n2 cans (14-1/2 ounces each) diced tomatoes with roasted garlic, undrained;\n1/3 cup loosely packed basil leaves, torn;\n1 tablespoon coarsely chopped fresh rosemary;\n1/2 teaspoon salt;\n1/4 teaspoon crushed red pepper flakes",
+      "process": "1.Cook pasta according to package directions. Meanwhile, in a Dutch oven, heat oil over medium-high heat. ;\n2.Add zucchini and yellow squash; cook and stir until crisp-tender, 3-4 minutes. ;\n3.Add garlic and cook 1 minute longer. ;\n4.Add tomatoes, basil, rosemary, salt and pepper flakes; heat through. ;\n5.Drain pasta and serve with zucchini mixture. ;\n6.If desired, top with additional basil.",
       "country": "Italy",
-      "category": "main-course",
-      "image": "apartment.jpg"
-    },
-    {
-      "id": 4,
-      "dish": "Mojito",
-      "ingredient": "White rum;fresh lime juice;mint leaves;sugar;soda water;ice",
-      "process": "1. Muddle mint and sugar;2. Add lime juice and rum;3. Top with soda and ice;4. Stir and garnish with mint.",
-      "country": "Cuba",
-      "category": "drink",
-      "image": "hang.jpg"
+      "category": "main",
+      "image": "summerzucchinipasta.jpg",
+      "id": 4
     }
   ]
 }

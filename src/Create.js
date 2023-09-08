@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
@@ -8,6 +9,7 @@ const Create = () => {
   const [process, setProcess] = useState("");
   const [country, setCountry] = useState("");
   const [category, setCategory] = useState("main");
+
   const [isPending, setIsPending] = useState(false);
   const navigate = useNavigate();
 
@@ -20,13 +22,20 @@ const Create = () => {
       .join(" ");
   };
 
-  // function to catch submitted data
+  // Function to autogenerate image name from dish input and I will put image into local file
+  const getImageName = (input) => {
+    const lowerInput = input.toLowerCase();
+    return lowerInput.split(" ").join("") + ".jpg";
+  };
+
+  // Function to catch submitted data
   const handleSubmit = (e) => {
     // remove brower refresh (default behavior)
     e.preventDefault();
 
     // Capitalize the words in the 'dish' input
     const capitalizedDish = capitalizeWords(dish);
+    const imageName = getImageName(dish);
 
     // a new recipe content
     const recipe = {
@@ -35,8 +44,8 @@ const Create = () => {
       process,
       country,
       category,
+      image: imageName,
     };
-    console.log(recipe);
 
     setIsPending(true);
 
@@ -85,7 +94,7 @@ const Create = () => {
         ></textarea>
         <label>
           Process (Please put number order for each step and split them with " ;
-          (semicolon)") <br></br>like 1.cook / 2. eat / 3.clean
+          (semicolon)") <br></br>like 1.cook ; 2. eat ; 3.clean
         </label>
         <textarea
           required
@@ -107,6 +116,7 @@ const Create = () => {
           <option value="dessert">dessert</option>
           <option value="drink">drink</option>
         </select>
+
         {!isPending && <button>Add New Dish</button>}
         {isPending && <button disabled>Adding new dish ...</button>}
       </form>

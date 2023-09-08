@@ -10,7 +10,7 @@
   padding: 20px;
   display: flex;
   align-items: center;
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
   border-bottom: 1px solid hsla(0, 90%, 51%, 0.039);
 }
@@ -31,7 +31,7 @@
   color: #f1356d;
 }
 .content {
-  max-width: 600px;
+  max-width: 700px;
   margin: 40px auto;
   padding: 20px;
 }
@@ -90,9 +90,16 @@
   background: #f1356d;
   color: #fff;
   border: 0;
-  padding: 8px;
-  border-radius: 8px;
+  padding: 10px;
+  border-radius: 6px;
   cursor: pointer;
+  margin: 10px;
+}
+
+.recipe-details img {
+  filter: brightness(120%);
+  border-radius: 8px;
+  clip-path: circle(50%);
 }
 
 /* ingredient and picture div */

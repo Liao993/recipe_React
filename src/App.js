@@ -15,7 +15,8 @@ function App() {
         <div className="content">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/Create" element={<Create />} />
+            <Route path="/create" element={<Create />} />
+            <Route path="/edit" element={<Create />} />
             <Route path="/recipes/:id" element={<RecipeDetails />} />
             <Route path="*" element={<NotFound />} />
           </Routes>

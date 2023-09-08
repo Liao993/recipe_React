@@ -28,18 +28,22 @@ const RecipeDetails = () => {
   };
 
   // delete recipe function
-  const hanldeClick = () => {
-    fetch("http://localhost:8000/recipes/" + id, { method: "DELETE" }).then(
-      () => {
-        navigate("/");
-      }
-    );
+  const hanldeEdit = () => {
+    navigate("/edit");
   };
 
-  // Create a mapping between image keys and their import paths
-  const imageMap = (url) => {
-    return require(url);
-    // Add more images and keys as needed
+  // delete recipe function
+  const hanldeDelete = () => {
+    // eslint-disable-next-line no-restricted-globals
+    if (confirm("Do you want to delete this recipe")) {
+      fetch("http://localhost:8000/recipes/" + id, { method: "DELETE" }).then(
+        () => {
+          navigate("/");
+        }
+      );
+    } else {
+      navigate("/");
+    }
   };
 
   return (
@@ -70,7 +74,8 @@ const RecipeDetails = () => {
             <h3>How to Cook</h3>
             <ul> {splitProcess(data.process)}</ul>
           </div>
-          <button onClick={hanldeClick}>delete</button>
+          <button onClick={hanldeDelete}>delete</button>
+          <button onClick={hanldeEdit}>edit</button>
         </div>
       )}
     </div>
