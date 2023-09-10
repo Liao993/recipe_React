@@ -1,4 +1,9 @@
-const SearchBar = ({ query, setQuery }) => {
+const SearchBar = ({
+  query,
+  setQuery,
+  queryingredient,
+  setQueryIngredient,
+}) => {
   return (
     <div className="search-bar">
       <input

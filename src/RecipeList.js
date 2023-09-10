@@ -19,6 +19,10 @@ const RecipeList = ({ recipes, query, title }) => {
             return post;
           } else if (post.country.toLowerCase().includes(query.toLowerCase())) {
             return post;
+          } else if (
+            post.ingredient.toLowerCase().includes(query.toLowerCase())
+          ) {
+            return post;
           }
         })
 

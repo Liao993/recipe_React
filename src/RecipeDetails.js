@@ -29,9 +29,18 @@ const RecipeDetails = () => {
 
   // delete recipe function
   const hanldeEdit = () => {
-    navigate("/edit");
+    navigate("/edit", {
+      state: {
+        recipeId: id,
+        dish: data.dish,
+        process: data.process,
+        ingredient: data.ingredient,
+        country: data.country,
+        category: data.category,
+        note: data.note,
+      },
+    });
   };
-
   // delete recipe function
   const hanldeDelete = () => {
     // eslint-disable-next-line no-restricted-globals
@@ -73,6 +82,10 @@ const RecipeDetails = () => {
           <div>
             <h3>How to Cook</h3>
             <ul> {splitProcess(data.process)}</ul>
+          </div>
+          <div>
+            <h3>Note :</h3>
+            <p> {data.note}</p>
           </div>
           <button onClick={hanldeDelete}>delete</button>
           <button onClick={hanldeEdit}>edit</button>
