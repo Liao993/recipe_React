@@ -1,7 +1,8 @@
-import RecipeList from "./RecipeList";
-import useFetch from "./useFetch";
-import SearchBar from "./SearchBar";
 import { useState } from "react";
+
+import RecipeList from "./RecipeList";
+import useFetch from "../../hooks/useFetch";
+import SearchBar from "./SearchBar";
 
 const Home = () => {
   // get data from backend json-server
