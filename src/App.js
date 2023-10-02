@@ -1,13 +1,13 @@
-// call json server : npx json-server --watch data/db.json --port 8000
-
-import Navbar from "./Navbar";
-import Home from "./Home";
+// call json server : npx json-server --watch src/data/db.json --port 8000
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Create from "./Create";
 
-import NotFound from "./NotFound";
-import RecipeDetails from "./RecipeDetails";
-import Edit from "./Edit";
+import Navbar from "./components/Navbar";
+
+import Home from "./pages/Home/Home";
+import Create from "./pages/Create/Create";
+import NotFound from "./pages/NotFound";
+import RecipeDetails from "./pages/RecipeDetails";
+import Edit from "./pages/Edit";
 
 // All Pages for the routes (RecipeList & SearchBar are the components for Home Page. They are not Routes)
 function App() {

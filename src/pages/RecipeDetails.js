@@ -1,8 +1,9 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 /* eslint-disable jsx-a11y/alt-text */
 import { useParams } from "react-router-dom";
-import useFetch from "./useFetch";
 import { useNavigate } from "react-router-dom";
+
+import useFetch from "../hooks/useFetch";
 
 const RecipeDetails = () => {
   // catch id and the data
@@ -72,7 +73,7 @@ const RecipeDetails = () => {
             </div>
             <div className="picutre">
               <img
-                src={require(`./img/${data.image}`)}
+                src={require(`../assets/img/${data.image}`)}
                 alt={data.image}
                 height={200}
                 width={200}
