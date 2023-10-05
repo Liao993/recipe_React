@@ -6,8 +6,8 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home/Home";
 import Create from "./pages/Create/Create";
 import NotFound from "./pages/NotFound";
-import RecipeDetails from "./pages/RecipeDetails";
-import Edit from "./pages/Edit";
+import RecipeDetails from "./pages/RecipeDetails/RecipeDetails";
+import Edit from "./pages/Edit/Edit";
 
 // All Pages for the routes (RecipeList & SearchBar are the components for Home Page. They are not Routes)
 function App() {

@@ -3,7 +3,7 @@
 import { useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
-import useFetch from "../hooks/useFetch";
+import useFetch from "../../hooks/useFetch";
 
 const RecipeDetails = () => {
   // catch id and the data
