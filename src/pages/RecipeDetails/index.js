@@ -73,7 +73,7 @@ const RecipeDetails = () => {
             </div>
             <div className="picutre">
               <img
-                src={require(`../assets/img/${data.image}`)}
+                src={require(`../../assets/img/${data.image}`)}
                 alt={data.image}
                 height={200}
                 width={200}
