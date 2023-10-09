@@ -3,7 +3,7 @@
 import { useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
-import useFetch from "../hooks/useFetch";
+import useFetch from "../../hooks/useFetch";
 
 const RecipeDetails = () => {
   // catch id and the data
@@ -73,7 +73,7 @@ const RecipeDetails = () => {
             </div>
             <div className="picutre">
               <img
-                src={require(`../assets/img/${data.image}`)}
+                src={require(`../../assets/img/${data.image}`)}
                 alt={data.image}
                 height={200}
                 width={200}

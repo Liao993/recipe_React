@@ -2,6 +2,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+//import CapitalizeWords from "../../utilis/CapitalizeWords";
 
 const Create = () => {
   const [dish, setDish] = useState("");
@@ -35,12 +36,12 @@ const Create = () => {
     e.preventDefault();
 
     // Capitalize the words in the 'dish' input
-    const capitalizedDish = capitalizeWords(dish);
+
     const imageName = getImageName(dish);
 
     // a new recipe content
     const recipe = {
-      dish: capitalizedDish,
+      dish: capitalizeWords(dish),
       ingredient,
       process,
       country,

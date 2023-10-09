@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 
-import Home from "./pages/Home/Home";
-import Create from "./pages/Create/Create";
+import Home from "./pages/Home";
+import Create from "./pages/Create";
 import NotFound from "./pages/NotFound";
 import RecipeDetails from "./pages/RecipeDetails";
 import Edit from "./pages/Edit";
