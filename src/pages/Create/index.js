@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-//import CapitalizeWords from "../../utilis/CapitalizeWords";
+import { createRecipe } from "../../services/JsonServerClient";
 
 const Create = () => {
   const [dish, setDish] = useState("");
@@ -31,7 +31,7 @@ const Create = () => {
   };
 
   // Function to catch submitted data
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     // remove brower refresh (default behavior)
     e.preventDefault();
 
@@ -53,26 +53,15 @@ const Create = () => {
     setIsPending(true);
 
     // send created data to json.server
-    fetch("http://localhost:8000/recipes", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(recipe),
-    })
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("Failed to add recipe");
-        }
-        return response.json();
-      })
-      .then(() => {
-        console.log("New Recipe Added");
-        setIsPending(false);
-        navigate("/"); // go to the home page
-      })
-      .catch((error) => {
-        console.error("Error adding recipe:", error);
-        setIsPending(false);
-      });
+    try {
+      await createRecipe(recipe);
+      console.log("New Recipe Added");
+      setIsPending(false);
+      navigate("/");
+    } catch (error) {
+      console.error("Error adding recipe:", error);
+      setIsPending(false);
+    }
   };
 
   // input form
@@ -80,7 +69,7 @@ const Create = () => {
     <div className="create">
       <h2>Add a new recipe</h2>
       <form onSubmit={handleSubmit}>
-        <label>Food Name</label>
+        <label>Dish Name</label>
         <input
           type="text"
           required
