@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
 import useFetch from "../../hooks/useFetch";
+import { deleteRecipe } from "../../services/JsonServerClient";
 
 const RecipeDetails = () => {
   // catch id and the data
@@ -43,14 +44,16 @@ const RecipeDetails = () => {
     });
   };
   // delete recipe function
-  const hanldeDelete = () => {
+  const hanldeDelete = async () => {
     // eslint-disable-next-line no-restricted-globals
     if (confirm("Do you want to delete this recipe")) {
-      fetch("http://localhost:8000/recipes/" + id, { method: "DELETE" }).then(
-        () => {
-          navigate("/");
-        }
-      );
+      try {
+        await deleteRecipe(id);
+        console.log("New Recipe Deleted");
+        navigate("/");
+      } catch (error) {
+        console.error("Error adding recipe:", error);
+      }
     } else {
       navigate("/");
     }

@@ -47,16 +47,6 @@
       "id": 5
     },
     {
-      "dish": "Ddd",
-      "ingredient": "dgtggbg",
-      "process": "bbb",
-      "country": "ttgg",
-      "category": "main",
-      "note": "main",
-      "image": "ddd.jpg",
-      "id": 6
-    },
-    {
       "dish": "Fffffh",
       "ingredient": "ghhnmm",
       "process": "mm",
@@ -65,16 +55,6 @@
       "note": "main",
       "image": "fffffh.jpg",
       "id": 7
-    },
-    {
-      "dish": "Pppp",
-      "ingredient": "jjjj",
-      "process": "gfvv",
-      "country": "yyy",
-      "category": "Salad",
-      "note": "main",
-      "image": "pppp.jpg",
-      "id": 8
     },
     {
       "dish": "Ppeedfggf ",
