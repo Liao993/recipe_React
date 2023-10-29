@@ -1,20 +1,20 @@
 import { useState } from "react";
 
 import RecipeList from "./RecipeList";
-import useFetch from "../../hooks/useFetch";
+//import { getRecipes } from "../../services/JsonServerClient";
+//import useFetch from "../../hooks/useFetch";
 import SearchBar from "./SearchBar";
+import useFetch from "../../hooks/useFetch";
 
 const Home = () => {
-  // get data from backend json-server
-  const { data, isPending, error } = useFetch("http://localhost:8000/recipes");
+  //receive all data
+  const { data } = useFetch();
 
   // search bar
   const [query, setQuery] = useState("");
 
   return (
     <div className="home">
-      {error && <div>{error}</div>}
-      {isPending && <div>Loading ...</div>}
       <SearchBar query={query} setQuery={setQuery} />
       {data && <RecipeList recipes={data} query={query} title="Recipes List" />}
     </div>

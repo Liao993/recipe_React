@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useLocation } from "react-router-dom";
+import { updateRecipe } from "../../services/JsonServerClient";
 
 const Edit = () => {
   const location = useLocation();
@@ -41,7 +42,7 @@ const Edit = () => {
   };
 
   // Function to catch submitted data
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     // remove brower refresh (default behavior)
     e.preventDefault();
 
@@ -63,26 +64,15 @@ const Edit = () => {
     setIsPending(true);
 
     // send created data to json.server
-    fetch("http://localhost:8000/recipes/" + editid, {
-      method: "PUT",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(recipe),
-    })
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("Failed to edit recipe");
-        }
-        return response.json();
-      })
-      .then(() => {
-        console.log("Your Recipe is editted");
-        setIsPending(false);
-        navigate("/"); // go to the home page
-      })
-      .catch((error) => {
-        console.error("Error editting recipe:", error);
-        setIsPending(false);
-      });
+    try {
+      await updateRecipe({ editid, recipe });
+
+      setIsPending(false);
+      navigate("/");
+    } catch (error) {
+      console.error("Error adding recipe:", error);
+      setIsPending(false);
+    }
   };
 
   // input form

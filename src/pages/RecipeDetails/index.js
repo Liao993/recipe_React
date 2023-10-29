@@ -1,17 +1,19 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 /* eslint-disable jsx-a11y/alt-text */
+import useFetchDetail from "../../hooks/useFetchDetail";
+
 import { useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
-import useFetch from "../../hooks/useFetch";
 import { deleteRecipe } from "../../services/JsonServerClient";
 
 const RecipeDetails = () => {
   // catch id and the data
   const { id } = useParams();
-  const { data, isPending, error } = useFetch(
-    "http://localhost:8000/recipes/" + id
-  );
+  const { data } = useFetchDetail(id);
+
+  console.log("Recipes Detailed got");
+
   // function for moving the other page
   const navigate = useNavigate();
 
@@ -61,8 +63,6 @@ const RecipeDetails = () => {
 
   return (
     <div className="recipe-details">
-      {isPending && <div>Loading ...</div>}
-      {error && <div>{error}</div>}
       {data && (
         <div>
           <h2>

@@ -1,13 +1,14 @@
 import { useState, useEffect } from "react";
-import { getRecipes } from "../services/JsonServerClient";
+import { getRecipeDetails } from "../services/JsonServerClient";
 
-const useFetch = () => {
+const useFetchDetail = (id) => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
     async function fetchData() {
       try {
-        const received_data = await getRecipes(); // Call the imported function to get json data
+        const received_data = await getRecipeDetails(id); // Call the imported function to get json data
+
         setData(received_data);
       } catch (e) {
         alert(e.message);
@@ -15,9 +16,9 @@ const useFetch = () => {
     }
 
     fetchData();
-  }, []);
+  }, [id]);
 
   return { data };
 };
 
-export default useFetch;
+export default useFetchDetail;
