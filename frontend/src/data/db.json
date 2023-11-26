@@ -1,0 +1,60 @@
+{
+  "recipes": [
+    {
+      "dish": "Spaghetti Carbonara",
+      "ingredient": "200g spaghetti;100g pancetta;2 large eggs;50g Pecorino cheese;50g Parmesan cheese;black pepper",
+      "process": "1. Boil the spaghetti until al dente;2. Cook pancetta until crispy;3. Beat eggs, add cheese and pepper;4. Mix pasta, pancetta, and egg mixture.",
+      "country": "Italy",
+      "category": "Main-course",
+      "image": "spaghetticarbonara.jpg",
+      "id": 1
+    },
+    {
+      "dish": "Miso Tofu ",
+      "ingredient": "1box Tofu ;\n3 cloves Garlic;\n1 Chili (optional) ;\n2 Scallion (green onions) ;\n1/2 onion;\n1 tbsp miso\n\n",
+      "process": "1. Cut tofu, scallion(green onions), garlic, and chili before cooking. ;\n2. Add some oil into a pan, then pan fry the tofu until golden brown;\n3. add onion and stir fry for around 1 mins;\n4.  add miso, cover the pot and cook it until onion soft;\n5. sprinkle the green onions",
+      "country": "Taiwan",
+      "category": "Main-course",
+      "image": "misotofu.jpg",
+      "id": 2
+    },
+    {
+      "dish": "Honey Cod ",
+      "ingredient": "1 egg, at room temperature;\n1 clove garlic, minced;\n½ tsp lemon juice;\npinch of salt;\n250 ml mild, fruity olive oil;\n1-2 Tbsp honey;\n4 cod fillets (desalinated);\nflour;\noil and salt",
+      "process": "1. Traditionally made in a mortar and pestle, you can also whisk it by hand—but be ready for some vigorous whisking. If you're like me and have a miniprimer (immersion blender) you'll have it made in minutes. Put the egg, minced garlic, pinch of salt, lemon juice and about half the olive oil in the miniprimer cup and allow the ingredients to settle for about a minute.;\n2. Place the head of the miniprimer in the bottom of the cup and switch it on medium speed. Do not move the mixer up and down, you need to allow it to gradually blend the ingredients. As the ingredients begin to emulsify, slowly tilt the the head of the miniprimer until all the oil is emulsified.;\n3. With the mixer on low to medium-low, slowly drizzle in the rest of the olive oil. Once emulsified, gently whisk in the honey to your taste. Set allioli aside.;\n4. Preheat the oven to 180°C (350°F).;\n5. Drain the cod fillets and coat them with flour. Heat a little oil in a frying pan and fry the cod for two minutes on each side. Set cod aside and soak up any excess oil with kitchen paper.  ;\n6. Place the cod fillets and coat each fillet generously with the honey allioli.;\n7. Bake 10-15 minutes in the center of the oven, keeping an eye on the allioli so that it does not burn.;\n8. Serve and enjoy!",
+      "country": "Bercelona, Spain",
+      "category": "Main-course",
+      "image": "honeycod.jpg",
+      "id": 3
+    },
+    {
+      "dish": "Summer Zucchini Pasta",
+      "ingredient": "1 package (16 ounces) pappardelle or tagliatelle pasta;\n1/4 cup olive oil;\n2 small zucchini, cut into thin ribbons;\n2 small yellow summer squash, cut into thin ribbons;\n4 garlic cloves, thinly sliced;\n2 cans (14-1/2 ounces each) diced tomatoes with roasted garlic, undrained;\n1/3 cup loosely packed basil leaves, torn;\n1 tablespoon coarsely chopped fresh rosemary;\n1/2 teaspoon salt;\n1/4 teaspoon crushed red pepper flakes",
+      "process": "1.Cook pasta according to package directions. Meanwhile, in a Dutch oven, heat oil over medium-high heat. ;\n2.Add zucchini and yellow squash; cook and stir until crisp-tender, 3-4 minutes. ;\n3.Add garlic and cook 1 minute longer. ;\n4.Add tomatoes, basil, rosemary, salt and pepper flakes; heat through. ;\n5.Drain pasta and serve with zucchini mixture. ;\n6.If desired, top with additional basil.",
+      "country": "Italy",
+      "category": "main",
+      "image": "summerzucchinipasta.jpg",
+      "id": 4
+    },
+    {
+      "dish": "Cataplana (fish Stew)",
+      "ingredient": "¼ cup extra-virgin olive oil;\n\n8 ounces linguiça, cut into 1/4-inch slices;\n\n1 large yellow onion (about 1 pound), cut in half lengthwise and thinly sliced lengthwise (about 3 cups);\n\n2 medium-size fresh Cubanelle chiles, halved lengthwise, seeded, and sliced crosswise (about 1 1/2 cups);\n\n4 large garlic cloves, sliced (2 tablespoons);\n\n½ cup dry white wine;\n\n1 (14 1/2-ounce) can whole peeled tomatoes, crushed by hand and juices reserved;\n\n2 cups clam juice;\n\n2 bay leaves;\n\n1 ½ teaspoons paprika;\n\n½ teaspoon saffron threads, crushed;\n\n2 cups packed chopped kale;\n\n½ teaspoon kosher salt;\n\n¼ teaspoon black pepper;\n\n8 littleneck clams (about 9 ounces), scrubbed;\n\n8 ounces peeled and deveined tail-on raw large shrimp (about 12 shrimp);\n\n4 ounces cleaned small squid tentacles (12 to 15 small tentacles), rinsed;\n\n8 mussels (about 4 ounces), scrubbed and debearded;\n\nPortuguese rolls, warmed",
+      "process": "1. Heat oil in a large Dutch oven over medium-high. Add linguiça\n2. cook, stirring often, until fat just starts to render, about 3 minutes. Add onion, chiles, and garlic; cook, stirring often, until vegetables are just softened, 5 to 7 minutes.;\n3. Add wine to mixture in Dutch oven;\n4. Cook, scraping up any browned bits from bottom of Dutch oven, until nearly evaporated, about 2 minutes. ;\n5. Add crushed tomatoes and juices, clam juice, bay leaves, paprika, and saffron. Bring to a boil over medium-high. Cover and reduce heat to medium-low and simmer 15 minutes.;\n6. Stir kale, salt, and black pepper into stew. Nestle clams, shrimp, squid, and mussels into stew. Cover and increase heat to medium-high; \n7. Cook until mussels and clams open and shrimp and squid are just cooked through, 4 to 6 minutes. Discard any closed clams or mussels. Serve with warm rolls.",
+      "country": "Portugal",
+      "category": "main",
+      "note": "https://www.foodandwine.com/recipes/cataplana-portuguese-fish-stew",
+      "image": "cataplana(fishstew).jpg",
+      "id": 5
+    },
+    {
+      "dish": "pppp",
+      "ingredient": "gggh",
+      "process": "ttt",
+      "country": "Korea",
+      "category": "main",
+      "note": "main",
+      "image": "pppp.jpg",
+      "id": 6
+    }
+  ]
+}
