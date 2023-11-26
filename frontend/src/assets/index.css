@@ -45,27 +45,45 @@
 
 /* recipe previews (home page) / list */
 .recipe-preview {
+  margin-top: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
+  grid-gap: 20px;
 }
 
 /* card component */
 .recipe-card {
-  padding-top: 16px;
-  margin-top: 20px;
   border-bottom: 1px solid #fafafa;
 }
 .recipe-card:hover {
-  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  transform: scale(1.1);
+  transition-duration: 2ms;
+}
+
+.recipe-card a {
+  text-decoration: none;
+}
+
+.recipe-card img {
+  width: 100%;
+  height: 300px;
+}
+
+.recipe-word {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px;
 }
 .recipe-card h2 {
   font-size: 20px;
   color: #f1356d;
-  margin-bottom: 8px;
+  align-self: flex-end;
 }
-.recipe-card a {
-  text-decoration: none;
+
+.recipe-card h3 {
+  font-size: 16px;
+  color: black;
+  align-self: flex-end;
 }
 
 /* recipe details page */
