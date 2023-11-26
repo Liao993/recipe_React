@@ -1,4 +1,4 @@
-const SearchBar = ({ query, setQuery }) => {
+const SearchBar = ({ query, setQuery, searchFunction }) => {
   return (
     <div className="search-bar">
       <input
@@ -6,6 +6,7 @@ const SearchBar = ({ query, setQuery }) => {
         value={query} // value returns inputted data
         onChange={(e) => setQuery(e.target.value)}
       />
+      <button onClick={() => searchFunction(query)}>My Search</button>
     </div>
   );
 };

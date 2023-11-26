@@ -1,10 +1,14 @@
 import { useState } from "react";
 import Card from "./Card";
 
-function RecipeList({ recipes, query, title }) {
+import SearchBar from "./SearchBar";
+
+function RecipeList({ recipes, title }) {
   const [food, setFood] = useState(recipes);
 
-  //Search
+  const [query, setQuery] = useState("");
+
+  //Search Function
   const mySearch = (query) => {
     setFood(
       // eslint-disable-next-line array-callback-return
@@ -28,7 +32,8 @@ function RecipeList({ recipes, query, title }) {
   };
   return (
     <div className="recipe-list">
-      <button onClick={() => mySearch(query)}>My Search</button>
+      <SearchBar query={query} setQuery={setQuery} searchFunction={mySearch} />
+
       <h2>{title}</h2>
       <div className="recipe-preview">
         {food.map((recipe) => (
