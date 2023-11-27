@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
 const Card = ({ _id, dish, country, image }) => {
-  console.log(image);
   return (
     <div className="recipe-card" key={_id}>
       <Link to={`/recipes/${_id}`}>

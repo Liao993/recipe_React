@@ -8,6 +8,20 @@ function RecipeList({ recipes, title }) {
 
   const [query, setQuery] = useState("");
 
+  //Filter Category
+
+  const filterCategory = (category) => {
+    setFood(
+      recipes.filter((item) => {
+        if (category === "all") {
+          return item;
+        } else {
+          return item.category === category;
+        }
+      })
+    );
+  };
+
   //Search Function
   const mySearch = (query) => {
     setFood(
@@ -32,8 +46,25 @@ function RecipeList({ recipes, title }) {
   };
   return (
     <div className="recipe-list">
-      <SearchBar query={query} setQuery={setQuery} searchFunction={mySearch} />
-
+      <div className="recipe-filter">
+        <div className="recipe-filter-category">
+          <h2>Filter Category</h2>
+          <div className="recipe-filter-category-button">
+            <button onClick={() => filterCategory("all")}>All dishes</button>
+            <button onClick={() => filterCategory("main")}>Main courses</button>
+            <button onClick={() => filterCategory("side")}>Side dishes</button>
+            <button onClick={() => filterCategory("soup")}>Soup</button>
+            <button onClick={() => filterCategory("dessert")}>Dessert</button>
+            <button onClick={() => filterCategory("salad")}>Salad</button>
+            <button onClick={() => filterCategory("drink")}>Drink</button>
+          </div>
+        </div>
+        <SearchBar
+          query={query}
+          setQuery={setQuery}
+          searchfunction={mySearch}
+        />
+      </div>
       <h2>{title}</h2>
       <div className="recipe-preview">
         {food.map((recipe) => (
