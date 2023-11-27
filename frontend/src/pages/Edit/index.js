@@ -112,12 +112,12 @@ const Edit = () => {
         />
         <label>Category</label>
         <select value={category} onChange={(e) => setCategory(e.target.value)}>
-          <option value="Main-course">main-course</option>
-          <option value="Side-dish">side-dish</option>
-          <option value="Soup">soup</option>
-          <option value="Salad">salad</option>
-          <option value="Dessert">dessert</option>
-          <option value="Drink">drink</option>
+          <option value="main">main-course</option>
+          <option value="side">side-dish</option>
+          <option value="soup">soup</option>
+          <option value="salad">salad</option>
+          <option value="dessert">dessert</option>
+          <option value="drink">drink</option>
         </select>
         <label>Note</label>
         <input

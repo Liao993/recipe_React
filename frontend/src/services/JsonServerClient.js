@@ -43,7 +43,7 @@ const updateRecipe = async ({ editid, recipe }) => {
     const response = await fetch(
       "http://localhost:4000/api/recipes/" + editid,
       {
-        method: "PUT",
+        method: "PATCH",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(recipe),
       }
