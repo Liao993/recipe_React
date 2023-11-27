@@ -38,10 +38,40 @@
 /* recipe list */
 .recipe-list {
   margin: 0 auto;
-  text-align: left;
+}
+
+.recipe-list h2 {
+  text-align: center;
+  font-size: xx-large;
 }
 
 /* filter box */
+.recipe-filter {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.recipe-filter h2 {
+  text-align: center;
+}
+
+.recipe-filter-category-button {
+  margin-top: 15px;
+  display: flex;
+}
+
+.recipe-filter-category-button button {
+  padding: 4px 8px;
+  margin-right: 10px;
+  background-color: white;
+  color: #f1356df9;
+  font-weight: 700;
+  font-size: medium;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 2px #f1356df9;
+}
 
 /* recipe previews (home page) / list */
 .recipe-preview {
@@ -183,13 +213,19 @@
   cursor: pointer;
 }
 
+.search-bar {
+  max-width: 200px;
+}
 .search-bar input {
   margin-bottom: 8px;
   border: 2px solid grey;
-  font-size: 14pt;
+  font-size: 14px;
   font-weight: bold;
   text-align: center;
   height: 40px;
-  width: 150pt;
+  width: 200px;
   border-radius: 6px;
+}
+.search-bar button {
+  padding: 8px;
 }
