@@ -157,7 +157,7 @@
 .recipe-details img {
   filter: brightness(120%);
   border-radius: 8px;
-  clip-path: circle(50%);
+  clip-path: circle(80%);
 }
 
 /* ingredient and picture div */
