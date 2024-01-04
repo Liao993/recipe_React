@@ -33,5 +33,3 @@ mongoose
   .catch((error) => {
     console.log(error);
   });
-
-//listen for the request
