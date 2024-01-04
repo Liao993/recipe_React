@@ -73,6 +73,11 @@
   box-shadow: 0px 0px 2px 2px #f1356df9;
 }
 
+.recipe-filter-category-button button:hover {
+  transform: scale(1.1);
+  transition-duration: 2ms;
+}
+
 /* recipe previews (home page) / list */
 .recipe-preview {
   margin-top: 20px;
